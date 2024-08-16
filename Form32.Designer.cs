@@ -89,13 +89,14 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(336, 310);
+            this.button1.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.button1.Location = new System.Drawing.Point(336, 311);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(128, 44);
             this.button1.TabIndex = 10;
             this.button1.Text = "CADASTRAR";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             // 
             // Form32
             // 
